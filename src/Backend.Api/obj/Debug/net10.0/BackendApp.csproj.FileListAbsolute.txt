@@ -31,3 +31,6 @@ E:\code\koda-projects\day16-backend\koda-b1-backend\src\Backend.Api\obj\Debug\ne
 E:\code\koda-projects\day16-backend\koda-b1-backend\src\Backend.Api\obj\Debug\net10.0\BackendApp.pdb
 E:\code\koda-projects\day16-backend\koda-b1-backend\src\Backend.Api\obj\Debug\net10.0\BackendApp.genruntimeconfig.cache
 E:\code\koda-projects\day16-backend\koda-b1-backend\src\Backend.Api\obj\Debug\net10.0\ref\BackendApp.dll
+E:\code\koda-projects\day16-backend\koda-b1-backend\src\Backend.Api\obj\Debug\net10.0\BackendApp.RazorAssemblyInfo.cache
+E:\code\koda-projects\day16-backend\koda-b1-backend\src\Backend.Api\obj\Debug\net10.0\BackendApp.RazorAssemblyInfo.cs
+E:\code\koda-projects\day16-backend\koda-b1-backend\src\Backend.Api\obj\Debug\net10.0\BackendApp.sourcelink.json
