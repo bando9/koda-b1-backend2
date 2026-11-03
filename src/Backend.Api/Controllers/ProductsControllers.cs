@@ -74,5 +74,14 @@ public sealed class ProductController : ControllerBase
 
     }
 
+    // TODO: Update
+    
+    [HttpPut("productCode")]
+    [ProducesResponseType(typeof(ProductResponse),StatusCodes.Status200OK)]
+    public ActionResult<ProductResponse> UpdateProduct([FromBody] Product request, [FromRoute] string productCode)
+    {
+        
+    }
+
 
 }

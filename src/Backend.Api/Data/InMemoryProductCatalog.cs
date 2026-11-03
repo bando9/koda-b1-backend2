@@ -48,4 +48,26 @@ public sealed class InMemoryProductCatalog
 
         _product.Add(product);
     }
+
+    public void Remove(string productCode)
+    {
+        var product = GetByCode(productCode);
+
+        if(product != null)
+        {   
+        _product.Remove(product);
+        }
+    }
+
+    public void Put(string productCode, Product updateProduct)
+    {
+        var product = GetByCode(productCode) ?? throw new ArgumentException("product is not found");
+
+        product.ProductCode = updateProduct.ProductCode;
+        product.Name = updateProduct.Name;
+        product.Price = updateProduct.Price;
+        product.Stock = updateProduct.Stock;        
+        product.Category = updateProduct.Category;        
+
+    }
 }
